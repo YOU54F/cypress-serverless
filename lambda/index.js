@@ -49,7 +49,7 @@ exports.handler = function(event, context) {
         config: {
           video: false
         },
-        record: false,
+        record: true,
         project: "/tmp",
         reporter: 'mochawesome',
         // This also works!
