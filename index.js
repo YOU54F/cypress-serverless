@@ -8,7 +8,7 @@ const lambdaArn = process.env.deployed_lambda_arn;
 
 async function main() {
   const files = glob
-    .sync("cypress/integration/**/*.spec.js", {
+    .sync("cypress/integration/**/*.spec.js --record --ci-p", {
       cwd: "lambda"
     })
     .map(file => `/tmp/${file}`);
