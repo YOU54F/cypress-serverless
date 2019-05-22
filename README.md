@@ -1,5 +1,7 @@
 # cypress-serverless
 
+[![CircleCI](https://circleci.com/gh/YOU54F/cypress-serverless.svg?style=svg)](https://circleci.com/gh/YOU54F/cypress-serverless)
+
 ## TODO
 
 - Update readme with serverless instructions
